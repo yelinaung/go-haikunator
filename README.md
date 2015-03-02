@@ -1,4 +1,4 @@
-go-haikunator 
+go-haikunator [![Build Status](https://travis-ci.org/yelinaung/go-haikunator.svg?branch=master)](https://travis-ci.org/yelinaung/go-haikunator)
 =============
 
 Heroku-like memorable random name generator. Golang port of [haikunator](https://github.com/usmanbashir/haikunator).
