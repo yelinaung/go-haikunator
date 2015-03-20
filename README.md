@@ -29,13 +29,15 @@ func main() {
 
 ```
 
-License
--------
-MIT
-
 Other Languages
 -------
 Haikunator is also available in other languages. Check them out:
 - Node: https://github.com/AtroxDev/haikunatorjs
 - Python: https://github.com/AtroxDev/haikunator
 - Ruby: https://github.com/usmanbashir/haikunator
+
+
+License
+-------
+MIT
+
