@@ -24,7 +24,7 @@ import (
 
 func main() {
   haikunator := haikunator.New(time.Now().UTC().UnixNano())
-  fmt.Println(haikunator.HaikuNate())
+  fmt.Println(haikunator.Haikunate())
 }
 
 ```
