@@ -26,6 +26,7 @@ var (
 
 type Name interface {
 	Haikunate() string
+	Size() int
 }
 
 type RandomName struct {
@@ -34,6 +35,10 @@ type RandomName struct {
 
 func (r RandomName) Haikunate() string {
 	return fmt.Sprintf("%v-%v", ADJECTIVES[r.r.Intn(len(ADJECTIVES))], NOUNS[r.r.Intn(len(NOUNS))])
+}
+
+func (r RandomName) Size() int {
+	return len(ADJECTIVES) * len(NOUNS)
 }
 
 func New(seed int64) Name {
