@@ -3,7 +3,7 @@ go-haikunator [![Build Status](https://travis-ci.org/yelinaung/go-haikunator.svg
 
 Heroku-like memorable random name generator. Golang port of [haikunator](https://github.com/usmanbashir/haikunator).
 
-By default the generator provides 4096 unique combinations.
+By default the generator provides 8736 unique combinations.
 
 ```bash
 sparkling-cherry
