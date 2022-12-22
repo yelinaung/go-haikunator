@@ -21,3 +21,12 @@ func TestAreGeneratedNamesRandomOrNot(t *testing.T) {
 		}
 	}
 }
+
+func TestTotalCombinations(t *testing.T) {
+	// This test should be kept up-to-date with the README
+	expected := 8645
+	found := len(ADJECTIVES) * len(NOUNS)
+	if expected != found {
+		t.Fatalf("mismatched total combinations: expected %v but found %v", expected, found)
+	}
+}
