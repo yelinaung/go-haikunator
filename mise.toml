@@ -1,6 +1,6 @@
 [tools]
 go = "1.26"
-golangci-lint = "2.11.4"
+golangci-lint = "2.12.1"
 gofumpt = "0.7.0"
 
 [tasks.test]
