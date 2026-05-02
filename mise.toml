@@ -1,7 +1,7 @@
 [tools]
 go = "1.26"
 golangci-lint = "2.12.1"
-gofumpt = "0.7.0"
+gofumpt = "0.9.2"
 
 [tasks.test]
 description = "Run Go tests"
